@@ -1,0 +1,85 @@
+.list-table {
+  border: 8px solid #ff0054;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table-heading {
+  font-size: 36px;
+  background: #9e0059;
+  border-bottom: 2px solid #9e0059;
+  color: #ebc14e;
+}
+
+.contact-headers {
+  font-weight: bold;
+}
+
+.table td,
+table th {
+  border: 1px solid #9e0059;
+  padding: 2px 2px;
+}
+
+table tbody td {
+  font-size: 18px;
+  color: #9e0059;
+}
+
+table tr:nth-child(even) {
+  background: #f68b55;
+}
+table tr:nth-child(odd) {
+  background: #ebc14e;
+}
+
+table thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff5400;
+  text-align: center;
+}
+
+.hover-row:hover {
+  background-color: #d5bcff;
+  cursor: pointer;
+}
+
+.contact-card {
+  border: 8px solid #ff0054;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1f0154;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card h2 {
+  font-size: 36px;
+  color: #9e0059;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card p {
+  font-size: 18px;
+  color: #9e0059;
+  margin-bottom: 5px;
+}
+
+.contact-card button {
+  background-color: #9e0059;
+  color: #ebc14e;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.contact-card button:hover {
+  background-color: #ebc14e;
+  color: #9e0059;
+  cursor: pointer;
+}
